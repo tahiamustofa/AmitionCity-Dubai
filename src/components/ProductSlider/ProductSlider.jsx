@@ -2,7 +2,7 @@ import { FaRegHeart, FaEye } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaArrowRight, FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 import { useEffect, useRef, useState } from "react";
 import "./../../index.css";
 import img1 from "../../assets/img/Rectangle 18.png";
@@ -60,7 +60,7 @@ const CustomPrevArrow = ({ onClick }) => (
     className="absolute top-1/2 left-[-20px] transform -translate-y-1/2 z-10 cursor-pointer bg-gray-800 bg-opacity-50 p-2 rounded-full"
     onClick={onClick}
   >
-    <FaArrowLeftLong color="white" size={11} />
+    <FaArrowLeft color="white" size={11} />
   </div>
 );
 
