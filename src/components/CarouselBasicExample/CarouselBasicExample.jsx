@@ -53,7 +53,7 @@ const CarouselBasicExample = () => {
     };
 
     return (
-        <div className="relative overflow-hidden rounded-4xl w-full h-screen 2xl:max-w-[1530px] max-w-full px-3 md:px-8 xl:max-w-[1280px] container mx-auto  ">
+        <div className="relative overflow-hidden rounded-4xl w-full h-screen  px-3 md:px-8  max-w-screen-2xl  mx-auto  ">
             {/* Slider Container */}
             <div ref={sliderRef} className="flex w-full h-full overflow-x-hidden snap-x snap-mandatory">
                 {slides.map((slide, index) => (
