@@ -144,7 +144,7 @@ const ProductSlider = () => {
       }`}
     >
       <div className="my-5 space-y-2">
-        <h2 className="lg:text-4xl sm:text-2xl text-xl font-bold">
+        <h2 className="lg:text-4xl sm:text-2xl text-lg font-bold">
           Featured places
         </h2>
         <p>Travelers’ Choice Awards Best of the Best Beaches</p>

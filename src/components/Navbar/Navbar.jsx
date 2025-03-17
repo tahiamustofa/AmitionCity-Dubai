@@ -8,7 +8,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-white relative  w-full h-20 z-50 ">
+        <nav className="bg-white relative  w-full h-20 z-50 2xl:max-w-[1530px] max-w-full px-3 md:px-8 xl:max-w-[1280px] container mx-auto ">
             <div className="container mx-auto flex justify-between items-center p-4">
                 <h1 className="text-xl font-bold">Brand</h1>
 
