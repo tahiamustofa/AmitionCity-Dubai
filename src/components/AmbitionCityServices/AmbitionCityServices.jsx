@@ -4,7 +4,7 @@ import group from "../../assets/img/Group.png"
 import group500 from "../../assets/img/Group 500.png"
 export default function AmbitionCityServices() {
     return (
-      <div className="bg-white lg:my-20 sm:my-10 my-5 w-full max-w-screen-2xl mx-auto">
+      <div className=" bg-[#fdfaf5] lg:my-20 sm:my-10 my-5 w-full max-w-screen-2xl mx-auto">
         {/* Hero Section */}
         <div className="mx-auto  px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center ">

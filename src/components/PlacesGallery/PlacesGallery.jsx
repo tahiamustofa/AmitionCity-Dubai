@@ -6,9 +6,9 @@ import vector from "../../assets/img/Vector-1.png"
 
 const PlacesGallery = () => {
   return (
-    <div className="flex flex-col items-center py-8 px-4 ">
+    <div className="flex flex-col items-center py-8 md:px-5 px-3 bg-[#fdfaf5]">
  <div className="mx-auto max-w-2xl text-center my-2">
-            <img src={vector} alt="" className="mx-auto mb-2" />
+            <img src={vector} alt="" className="mx-auto mb-2 px-3 md:px-8" />
             <h1 className="md:text-2xl text-lg font-bold tracking-tight text-gray-900 lg:text-3xl mb-2">
             Best Places With Best Moments
             </h1>

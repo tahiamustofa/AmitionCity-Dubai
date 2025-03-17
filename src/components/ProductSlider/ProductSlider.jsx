@@ -139,7 +139,7 @@ const ProductSlider = () => {
   return (
     <div
       ref={sliderRef}
-      className={`px-6 lg:my-20 sm:my-10 my-5  md:px-8  w-full max-w-screen-2xl  mx-auto ${
+      className={`px-6 lg:my-20 sm:my-10 my-5  md:px-8  w-full max-w-screen-2xl  mx-auto z-30 bg-[#fdfaf5] ${
         isVisible ? "slide-up" : ""
       }`}
     >
@@ -161,6 +161,8 @@ const ProductSlider = () => {
                     alt={product.name}
                     className="w-full transition-transform duration-300"
                   />
+                  {/* Gradient overlay for text readability */}
+          <div className="absolute inset-0 bg-gradient-to-tr from-white/50 via-transparent to-transparent"></div>
                   <div className="absolute left-0 top-[88%] flex items-center h-7 duration-300">
                     <button className="text-white px-4 font-bold italic flex items-center gap-1">
                       {product.name} <FaArrowRight />

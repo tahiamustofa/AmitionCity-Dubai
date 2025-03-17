@@ -53,13 +53,13 @@ const CarouselBasicExample = () => {
     };
 
     return (
-        <div className="relative overflow-hidden rounded-4xl w-full h-screen  px-3 md:px-8  max-w-screen-2xl  mx-auto  ">
+        <div className="relative  overflow-hidden rounded-4xl w-full xl:h-[700px]  md:h-[500px] h-96 px-3 md:px-8  max-w-screen-2xl  mx-auto  bg-[#fdfaf5]">
             {/* Slider Container */}
-            <div ref={sliderRef} className="flex w-full h-full overflow-x-hidden snap-x snap-mandatory">
+            <div ref={sliderRef} className="flex w-full h-full overflow-x-hidden snap-x snap-mandatory z-30">
                 {slides.map((slide, index) => (
                     <div
                         key={index}
-                        className="text-white flex-none w-full flex flex-col items-center justify-center snap-center rounded-4xl"
+                        className="text-white flex-none w-full flex flex-col items-center justify-center snap-center rounded-4xl z-30"
                         style={{
                             backgroundImage: slide.bgImage,
                             backgroundSize: "cover",
@@ -91,13 +91,13 @@ const CarouselBasicExample = () => {
             {/* Navigation Buttons */}
             <button
                 onClick={prevSlide}
-                className="absolute left-4 md:top-1/2  min-[360px]:top-[40%] top-[38%] transform -translate-y-1/2 bg-[#10182880] bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-80 transition "
+                className="absolute left-4 md:top-1/2  min-[360px]:top-[40%] top-[38%] transform -translate-y-1/2 bg-[#10182880] bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-80 transition z-50"
             >
                 <ChevronLeft size={20} />
             </button>
             <button
                 onClick={nextSlide}
-                className="absolute right-4 md:top-1/2 min-[360px]:top-[40%] top-[38%] transform -translate-y-1/2 bg-[#10182880] bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-80 transition "
+                className="absolute right-4 md:top-1/2 min-[360px]:top-[40%] top-[38%] transform -translate-y-1/2 bg-[#10182880] bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-80 transition z-50 "
             >
                 <ChevronRight size={20} />
             </button>
