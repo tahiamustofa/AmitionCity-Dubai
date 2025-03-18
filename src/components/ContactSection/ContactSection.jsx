@@ -5,10 +5,10 @@ import vector from "../../assets/img/Vector (2).png"
 export default function ContactSection() {
   return (
     <section 
-      className="w-full bg-cover bg-center bg-no-repeat px-4 sm:px-6 lg:px-10 my-5 sm:my-10 lg:my-20  max-w-screen-2xl mx-auto " 
+      className="w-full bg-cover bg-center bg-no-repeat  my-5 sm:my-10 lg:my-20  max-w-screen-2xl  " 
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <div className="mx-auto h-full flex flex-col justify-center py-16 sm:py-24 lg:py-24">
+      <div className="mx-auto h-full flex flex-col justify-center py-16 md:py-20 w-full max-w-screen-2xl px-5 md:px-16 ">
         <div className="mx-auto flex flex-col justify-center mb-5 w-full max-w-4xl">
           <img 
             src={vector} 

@@ -1,11 +1,85 @@
 import React from 'react';
+import Whatsapp from '../../assets/img/Group 496.png';
+import obj4 from "../../assets/img/Objects (3).png"
+
+
+import bg from "../../assets/img/contact bg.png";
 
 const Happily = () => {
     return (
-        <div className='flex gap-4'>
-            
+
+        <div className='bg-[#fdfaf5] w-full max-w-screen-2xl relative  my-5 sm:my-10 lg:my-20'>
+            <div className="absolute top-0 left-0 z-0">
+                <img src={obj4} className="w-1/2" alt="decorative element" />
+            </div>
+
+            <div className='flex gap-4 md:flex-row flex-col  text-black px-4  md:px-8  mx-auto items-center'>
+                <div className="p-4 flex-1 z-50">
+                    <div className=" mx-auto flex flex-col items-center lg:items-start text-center lg:text-left space-y-4">
+                        <h2 className="text-lg sm:text-2xl lg:text-3xl font-bold text-black mb-2">
+                            Happily providing services to our customers
+                        </h2>
+
+                        <p className=" text-black mb-4">
+                            Everything you need to enjoy luxurious tour and do business in Dubai.
+                        </p>
+
+                        <div
+                            href="tel:+971581425513"
+                            className=" "
+                        >
+                            <a href="#_" class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#4BC45C] rounded hover:bg-white group">
+                                <span class="w-48 h-48 rounded rotate-[-40deg] bg-[#DC893F] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                                <span class="relative w-full text-left  transition-colors duration-300 ease-in-out group-hover:text-black text-white flex gap-1">
+                                    <img src={Whatsapp} alt="" /> +971 58 142 5513 </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flex-1 xl:bg-contain bg-cover  bg-center bg-no-repeat " style={{ backgroundImage: `url(${bg})` }} >
+                    <div className='bg-cover bg-center bg-no-repeat  p-4' >
+                   
+                    <div className="z-50 mx-auto">
+                        <div className="grid grid-cols-2  xl:gap-5 gap-1 text-center "  >
+                            {/* Stat Item 1 */}
+                            <div className="p-3  rounded-lg transition-all duration-200">
+                                <p className="lg:text-2xl md:text-lg text-base font-bold text-black mb-2">2000+</p>
+                                <p className=" text-gray-600 font-medium">Happy customers</p>
+                            </div>
+
+                            {/* Stat Item 2 */}
+                            <div className="p-3  rounded-lg transition-all duration-200">
+                                <p className="lg:text-2xl md:text-lg text-base font-bold text-black mb-2">15%</p>
+                                <p className=" text-gray-600 font-medium">Less service fee than others</p>
+                            </div>
+
+                            {/* Stat Item 3 */}
+                            <div className="p-3  rounded-lg transition-all duration-200">
+                                <p className="lg:text-2xl md:text-lg text-base font-bold text-black mb-2">40+</p>
+                                <p className=" text-gray-600 font-medium">Awarded Customer</p>
+                            </div>
+
+                            {/* Stat Item 4 */}
+                            <div className="p-3  rounded-lg transition-all duration-200">
+                                <p className="lg:text-2xl md:text-lg text-base font-bold text-black mb-2">135+</p>
+                                <p className=" text-gray-600 font-medium">Business license registration</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                   
+                </div>
+            </div>
         </div>
     );
 };
 
 export default Happily;
+
+
+
+
+
+
+
