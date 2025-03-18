@@ -139,7 +139,7 @@ const ProductSlider = () => {
   return (
     <div
       ref={sliderRef}
-      className={`px-6 lg:my-20 sm:my-10 my-5  md:px-8  w-full max-w-screen-2xl  mx-auto z-30 bg-[#fdfaf5] ${
+      className={`px-6 lg:my-20 sm:my-10 my-5  md:px-8  w-full max-w-screen-2xl  mx-auto z-50 bg-[#fdfaf5] ${
         isVisible ? "slide-up" : ""
       }`}
     >

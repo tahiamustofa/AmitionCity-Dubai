@@ -4,7 +4,7 @@ import group from "../../assets/img/Group.png"
 import group500 from "../../assets/img/Group 500.png"
 export default function AmbitionCityServices() {
     return (
-      <div className=" bg-[#fdfaf5] lg:my-20 sm:my-10 my-5 w-full max-w-screen-2xl mx-auto">
+      <div className="bg-[#fdfaf5] lg:my-20 sm:my-10 my-5 w-full max-w-screen-2xl mx-auto">
         {/* Hero Section */}
         <div className="mx-auto  px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center ">
@@ -22,7 +22,7 @@ export default function AmbitionCityServices() {
           <div className="mx-auto mt-5 ">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-12 text-center">
                 <div className="text-center mx-auto space-y-2">
-                 <img src={fea} alt="" className="mx-auto w-16" />
+                 <img src={fea} alt="" className="mx-auto md:w-16 w-10" />
                  
                   <p className="md:text-xl font-bold text-md">Service guaranteed</p>
                   <p>
@@ -32,7 +32,7 @@ export default function AmbitionCityServices() {
                 </div>
 
                 <div className="text-center mx-auto space-y-2">
-                 <img src={group} alt="" className="mx-auto w-16" />
+                 <img src={group} alt="" className="mx-auto  md:w-16 w-10" />
                  
                   <p className="md:text-xl font-bold text-md">Cheaper air tickets</p>
                 
@@ -42,7 +42,7 @@ export default function AmbitionCityServices() {
 
 
                 <div className="text-center mx-auto space-y-2">
-                 <img src={group500} alt="" className="mx-auto w-16" />
+                 <img src={group500} alt="" className="mx-auto  md:w-16 w-10" />
                  
                   <p className="md:text-xl font-bold text-md">Confirmed business licences</p>
                 

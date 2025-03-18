@@ -6,9 +6,12 @@ import PlacesGallery from "../PlacesGallery/PlacesGallery";
 import ProductSlider from "../ProductSlider/ProductSlider";
 import Services from "../Services/Services";
 import TestimonialCard from "../TestimonialCard/TestimonialCard";
-import Visa from "../Visa";
+
 
 import obj4 from "../../assets/img/Objects (4).png"
+import LatestWritings from "../LatestWritings/LatestWritings";
+import ContactSection from "../ContactSection/ContactSection";
+import FAQ from "../FAQ/FAQ";
 
 const Home = () => {
     return (
@@ -29,7 +32,9 @@ const Home = () => {
 <PlacesGallery></PlacesGallery>
 <Services></Services>
 <TestimonialCard></TestimonialCard>
-<Visa></Visa>
+<LatestWritings></LatestWritings>
+<ContactSection></ContactSection>
+<FAQ></FAQ>
         </div>
     )
 
