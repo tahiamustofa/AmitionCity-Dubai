@@ -15,7 +15,7 @@ import FAQ from "../FAQ/FAQ";
 
 const Home = () => {
     return (
-        <div className="bg-[#fdfaf5]">
+        <div className="bg-[#fdfaf5]  mx-auto ">
     <div className="relative">
     <CarouselBasicExample></CarouselBasicExample>
      <div className="absolute xl:top-[40%] sm:top-1/3 top-20 right-0  ">
