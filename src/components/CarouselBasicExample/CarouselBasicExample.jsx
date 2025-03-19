@@ -12,6 +12,31 @@ const CarouselBasicExample = () => {
         {
             title: "Discover Your Dream Destinations",
             bgImage: "url('https://ambitioncity20.web.app/assets/hero2-DemESpx_.png')",
+
+            content: (
+
+                <div className="absolute inset-0 top-[62%] md:flex items-center justify-center lg:max-w-4xl md:max-w-xl max-w-80 hidden bg-[#101828B8] text-white m-5 mx-auto">
+                    <div className="relative text-white lg:text-sm text-xs mx-auto grid grid-cols-3 md:gap-5 gap-2 md:px-6 px-3">
+                        <ul className="space-y-2">
+                            <li>• Visa: New/Renew & Visits</li>
+                            <li>• Business Startup, Trade License</li>
+                            <li>• Ejari Business Location Set up</li>
+                        </ul>
+                        <ul className="space-y-2">
+                            <li>• RTA Applications</li>
+                            <li>• Health Insurance</li>
+                            <li>• Dubai Police Applications</li>
+                        </ul>
+                        <ul className="space-y-2">
+                            <li>• Certificate Attestation</li>
+                            <li>• Bulk Lamination</li>
+                            <li>• Photocopy Color/B&W</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            )
         },
         {
             title: "React, Vue, and HTML",
@@ -70,7 +95,8 @@ const CarouselBasicExample = () => {
                             <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold max-w-md text-center px-4">
                                 {slide.title}
                             </h2>
-
+                            {index === 1 && slide.content}
+                           
                             {/* Search Bar - Added at the top */}
                             <div className="transform z-10 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto px-4">
                                 <div className="relative flex">
@@ -79,8 +105,8 @@ const CarouselBasicExample = () => {
                                         placeholder="Search here..."
                                         className="w-full px-4 py-3 rounded-full bg-white bg-opacity-50 text-[#E6CA9C] placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white focus:bg-opacity-80 transition"
                                     />
-                                     <Search className="absolute right-4 top-1/2 text-4xl rounded-4xl font-bold p-1 transform -translate-y-1/2 text-white bg-[#E6CA9C] " />
-                                    
+                                    <Search className="absolute right-4 top-1/2 text-4xl rounded-4xl font-bold p-1 transform -translate-y-1/2 text-white bg-[#E6CA9C] " />
+
                                 </div>
                             </div>
                         </div>

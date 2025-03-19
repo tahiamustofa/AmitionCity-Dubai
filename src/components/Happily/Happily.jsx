@@ -42,27 +42,27 @@ const Happily = () => {
                     <div className='bg-cover bg-center bg-no-repeat  p-4' >
                    
                     <div className="z-50 mx-auto">
-                        <div className="grid grid-cols-2   lg:gap-8 gap-5  "  >
+                        <div className="grid grid-cols-2 lg:gap-8 sm:gap-5 gap-2  "  >
                             {/* Stat Item 1 */}
-                            <div className="p-3   rounded-lg transition-all duration-200">
+                            <div className=" md:p-3 p-1  rounded-lg transition-all duration-200">
                                 <p className="lg:text-2xl md:text-lg text-base font-bold text-black mb-2">2000+</p>
                                 <p className=" text-gray-600 font-medium">Happy customers</p>
                             </div>
 
                             {/* Stat Item 2 */}
-                            <div className="p-3  rounded-lg transition-all duration-200">
+                            <div className=" md:p-3 p-1  rounded-lg transition-all duration-200">
                                 <p className="lg:text-2xl md:text-lg text-base font-bold text-black mb-2">15%</p>
                                 <p className=" text-gray-600 font-medium">Less service fee than others</p>
                             </div>
 
                             {/* Stat Item 3 */}
-                            <div className="p-3  rounded-lg transition-all duration-200">
+                            <div className=" md:p-3 p-1  rounded-lg transition-all duration-200">
                                 <p className="lg:text-2xl md:text-lg text-base font-bold text-black mb-2">40+</p>
                                 <p className=" text-gray-600 font-medium">Awarded Customer</p>
                             </div>
 
                             {/* Stat Item 4 */}
-                            <div className="p-3  rounded-lg transition-all duration-200">
+                            <div className=" md:p-3 p-1  rounded-lg transition-all duration-200">
                                 <p className="lg:text-2xl md:text-lg text-base font-bold text-black mb-2">135+</p>
                                 <p className=" text-gray-600 font-medium">Business license registration</p>
                             </div>

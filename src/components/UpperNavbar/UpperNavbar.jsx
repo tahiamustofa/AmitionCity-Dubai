@@ -9,7 +9,7 @@ const UpperNavbar = () => {
         <div className="w-full  md:px-5  max-w-screen-2xl mx-auto  py-3 px-3 sm:py-4 sm:px-6 grid grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-between ">
             {/* Logo Section */}
             <div className="flex items-center">
-                <img src={logo} alt="Ambition Logo" className="w-3/5 sm:w-2/5 md:w-1/3" />
+                <img src={logo} alt="Ambition Logo" className="w-3/5 sm:w-2/5 md:1/3 xl:w-1/4" />
             </div>
 
             {/* Contact Info */}
