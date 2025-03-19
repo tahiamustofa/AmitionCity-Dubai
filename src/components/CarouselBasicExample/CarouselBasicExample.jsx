@@ -96,6 +96,7 @@ const CarouselBasicExample = () => {
                                 {slide.title}
                             </h2>
                             {index === 1 && slide.content}
+                            
                            
                             {/* Search Bar - Added at the top */}
                             <div className="transform z-10 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto px-4">

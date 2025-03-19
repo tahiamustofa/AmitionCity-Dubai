@@ -30,7 +30,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-[#fdfaf5] relative h-20 z-50 px-3 md:px-5 w-full max-w-full mx-auto">
+        <nav className="bg-[#fdfaf5] relative  z-50 px-3 md:px-5 w-full max-w-full mx-auto">
             <div className="container mx-auto flex justify-center items-center p-4">
                 {/* Desktop Navigation */}
                 <div className="hidden md:flex lg:space-x-4 md:space-x-2 items-center">
