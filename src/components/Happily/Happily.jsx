@@ -8,12 +8,12 @@ import bg from "../../assets/img/contact bg.png";
 const Happily = () => {
     return (
 
-        <div className='bg-[#fdfaf5] w-full max-w-screen-2xl relative  my-5 sm:my-10 lg:my-20'>
+        <div className='bg-[#fdfaf5] w-full max-w-screen-2xl mx-auto relative  my-5 sm:my-10 lg:my-20 '>
             <div className="absolute top-0 left-0 z-0">
                 <img src={obj4} className="w-1/2" alt="decorative element" />
             </div>
 
-            <div className='flex gap-4 md:flex-row flex-col  text-black px-4  md:px-8  mx-auto items-center'>
+            <div className='flex  md:flex-row flex-col  text-black px-4  mx-auto items-center justify-between py-10 gap-4'>
                 <div className="p-4 flex-1 z-50">
                     <div className=" mx-auto flex flex-col items-center lg:items-start text-center lg:text-left space-y-4">
                         <h2 className="text-lg sm:text-2xl lg:text-3xl font-bold text-black mb-2">
@@ -37,13 +37,14 @@ const Happily = () => {
                     </div>
                 </div>
 
-                <div className="flex-1 xl:bg-contain bg-cover  bg-center bg-no-repeat " style={{ backgroundImage: `url(${bg})` }} >
+<div className='flex-1 flex justify-end'>
+                <div className=" xl:bg-contain bg-cover  bg-center bg-no-repeat " style={{ backgroundImage: `url(${bg})` }} >
                     <div className='bg-cover bg-center bg-no-repeat  p-4' >
                    
                     <div className="z-50 mx-auto">
-                        <div className="grid grid-cols-2  xl:gap-5 gap-1 text-center "  >
+                        <div className="grid grid-cols-2   lg:gap-8 gap-5  "  >
                             {/* Stat Item 1 */}
-                            <div className="p-3  rounded-lg transition-all duration-200">
+                            <div className="p-3   rounded-lg transition-all duration-200">
                                 <p className="lg:text-2xl md:text-lg text-base font-bold text-black mb-2">2000+</p>
                                 <p className=" text-gray-600 font-medium">Happy customers</p>
                             </div>
@@ -69,6 +70,7 @@ const Happily = () => {
                     </div>
                     </div>
                    
+                </div>
                 </div>
             </div>
         </div>

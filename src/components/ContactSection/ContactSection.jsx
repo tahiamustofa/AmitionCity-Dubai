@@ -5,7 +5,7 @@ import vector from "../../assets/img/Vector (2).png"
 export default function ContactSection() {
   return (
     <section 
-      className="w-full bg-cover bg-center bg-no-repeat  my-5 sm:my-10 lg:my-20  max-w-screen-2xl  " 
+      className=" bg-cover bg-center bg-no-repeat  my-5 sm:my-10 lg:my-20     w-full max-w-screen-2xl mx-auto " 
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="mx-auto h-full flex flex-col justify-center py-16 md:py-20 w-full max-w-screen-2xl px-5 md:px-16 ">

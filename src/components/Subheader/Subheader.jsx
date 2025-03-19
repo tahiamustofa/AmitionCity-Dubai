@@ -23,17 +23,17 @@ const Subheader = () => {
     ];
 
     return (
-        <div className="flex flex-col gap-2 bg-[#fdfaf5] items-center w-full max-w-full justify-center ">
+        <div className="flex flex-col gap-2 bg-[#fdfaf5] items-center  justify-center mx-auto">
             <div className="flex md:flex-row flex-col gap-2 w-full mx-auto">
                 {services.map((service, index) => (
                     <div
                         key={index}
-                        className="relative w-full shadow-lg cursor-pointer hover:scale-105 transition-transform"
+                        className="relative  cursor-pointer hover:scale-105 transition-transform mx-auto"
                     >
                         <img
                             src={service.image}
                             alt={service.alt}
-                            className="w-full h-full lg:w-72 lg:h-24 "
+                            className="w-50 h-18 lg:w-72 lg:h-24 "
                         />
                         
 

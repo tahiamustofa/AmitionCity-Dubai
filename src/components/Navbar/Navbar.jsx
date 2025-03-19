@@ -42,7 +42,7 @@ const Navbar = () => {
 
                 {/* Mobile Menu Button */}
                 <button className="md:hidden text-xl" onClick={() => setIsOpen(!isOpen)}>
-                    {isOpen ? <FaTimes /> : <FaBars />}
+                    {isOpen ? <FaTimes /> : <button className="flex  gap-0.5 justify-center items-center"> Menu <FaBars /></button> }
                 </button>
             </div>
 
